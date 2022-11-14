@@ -24,7 +24,7 @@ line_bot_api = LineBotApi(lineaccesstoken)
 def index():
     return "Hello World!"
 
-@app.route('/aek')
+@app.route('/aek',methods=['GET'])
 def index():
     return "Hello World!"
 
