@@ -24,6 +24,10 @@ line_bot_api = LineBotApi(lineaccesstoken)
 def index():
     return "Hello World!"
 
+@app.route('/aek')
+def index():
+    return "Hello World!"
+
 
 @app.route('/webhook', methods=['POST'])
 def callback():
