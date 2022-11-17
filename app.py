@@ -39,8 +39,6 @@ def callback():
         event = decoded['events'][i]
         event_handle(event)
     return '',200
-
-
 def event_handle(event):
     print(event)
     try:
