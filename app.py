@@ -25,7 +25,7 @@ def index():
     return "Hello World!"
 
 @app.route('/aek',methods=['GET'])
-def index():
+def aek():
     return "Hello World!"
 
 
